@@ -11,10 +11,15 @@ public class Work {
 		this.q = q;
 		this.d = d;
 	}
+	/**
+	 * search for the key in the list of word given as parameter
+	 * 
+	 * @param ListOfwantedKey type Query 
+	 */
 	
 	public void KeyInDocument(Query ListOfwantedKey) {
 		System.out.println("");
-		//occurence in map from txt file
+		//Occurrence in map from text file
 		int occ = 0;
 		//String wkey = "";
 		for(String wantedKey : ListOfwantedKey.getQ()) {
